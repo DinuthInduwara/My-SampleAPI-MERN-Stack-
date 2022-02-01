@@ -5,7 +5,7 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const app = express();
 require("dotenv").config();
-const MONGODB_URI="mongodb+srv://dinuth:dinuth@cluster0.p4ufu.mongodb.net/emmaWatsonDatabace";
+const MONGODB_URI="mongodb+srv://{username}:{passowed}@cluster0.p4ufu.mongodb.net/{DB_Name}";
 
 const PORT = 4080;
 
